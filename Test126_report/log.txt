@@ -1,0 +1,194 @@
+EEEEEEEEEE
+======================================================================
+ERROR: test_error (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 107, in test_error
+    print text
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-5: ordinal not in range(128)
+
+======================================================================
+ERROR: test_error (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 148, in tearDown
+    print u"准备关闭浏览器..."
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-6: ordinal not in range(128)
+
+======================================================================
+ERROR: test_login (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 141, in test_login
+    print u"准备退出..."
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+
+======================================================================
+ERROR: test_login (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 148, in tearDown
+    print u"准备关闭浏览器..."
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-6: ordinal not in range(128)
+
+======================================================================
+ERROR: test_null (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 46, in test_null
+    print text
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-4: ordinal not in range(128)
+
+======================================================================
+ERROR: test_null (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 148, in tearDown
+    print u"准备关闭浏览器..."
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-6: ordinal not in range(128)
+
+======================================================================
+ERROR: test_pawd_null (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 65, in test_pawd_null
+    print text
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-4: ordinal not in range(128)
+
+======================================================================
+ERROR: test_pawd_null (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 148, in tearDown
+    print u"准备关闭浏览器..."
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-6: ordinal not in range(128)
+
+======================================================================
+ERROR: test_user_null (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 84, in test_user_null
+    print text
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-4: ordinal not in range(128)
+
+======================================================================
+ERROR: test_user_null (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", <unittest.suite.TestSuite tests=[<test_login.TestLogin testMethod=test_error>, <test_login.TestLogin testMethod=test_login>, <test_login.TestLogin testMethod=test_null>, <test_login.TestLogin testMethod=test_pawd_null>, <test_login.TestLogin testMethod=test_user_null>]>
+username=xxx;password=xxx
+username=iht_wang;password=Wzj1234abcd20
+iht_wang@126.com
+username=;password=
+username=iht_wang;password=
+username=;password=Wzj1234abcd20
+line 148, in tearDown
+    print u"准备关闭浏览器..."
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-6: ordinal not in range(128)
+
+----------------------------------------------------------------------
+Ran 5 tests in 145.415s
+
+FAILED (errors=10)
+F....<unittest.suite.TestSuite tests=[<test_login.TestLogin testMethod=test_error>, <test_login.TestLogin testMethod=test_login>, <test_login.TestLogin testMethod=test_null>, <test_login.TestLogin testMethod=test_pawd_null>, <test_login.TestLogin testMethod=test_user_null>]>
+username=xxx;password=xxx
+请点击验证码
+****请点击验证码*****
+Please vefify and click on OK...
+请点击验证码
+准备关闭浏览器...
+username=iht_wang;password=Wzj1234abcd20
+iht_wang@126.com
+准备退出...
+退出了
+准备关闭浏览器...
+username=;password=
+请输入帐号
+准备关闭浏览器...
+username=iht_wang;password=
+请输入密码
+准备关闭浏览器...
+username=;password=Wzj1234abcd20
+请输入帐号
+准备关闭浏览器...
+
+======================================================================
+FAIL: test_error (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 116, in test_error
+    self.assertEqual(text,prompt_info)
+AssertionError: u'\u8bf7\u70b9\u51fb\u9a8c\u8bc1\u7801' != u'\u5e10\u53f7\u6216\u5bc6\u7801\u9519\u8bef'
+- 请点击验证码
++ 帐号或密码错误
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 262.693s
+
+FAILED (failures=1)
+F....<unittest.suite.TestSuite tests=[<test_login.TestLogin testMethod=test_error>, <test_login.TestLogin testMethod=test_login>, <test_login.TestLogin testMethod=test_null>, <test_login.TestLogin testMethod=test_pawd_null>, <test_login.TestLogin testMethod=test_user_null>]>
+username=xxx;password=xxx
+请点击验证码
+****请点击验证码*****
+Vefify please...
+验证成功
+Will click on ok after 5 seconds... 
+
+准备关闭浏览器...
+username=iht_wang;password=Wzj1234abcd20
+iht_wang@126.com
+准备退出...
+退出了
+准备关闭浏览器...
+username=;password=
+请输入帐号
+准备关闭浏览器...
+username=iht_wang;password=
+请输入密码
+准备关闭浏览器...
+username=;password=Wzj1234abcd20
+请输入帐号
+准备关闭浏览器...
+
+======================================================================
+FAIL: test_error (test_login.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\Projects\Test126\test_login.py", line 128, in test_error
+    self.assertEqual(text,prompt_info)
+AssertionError: u'' != u'\u5e10\u53f7\u6216\u5bc6\u7801\u9519\u8bef'
++ 帐号或密码错误
+
+----------------------------------------------------------------------
+Ran 5 tests in 233.297s
+
+FAILED (failures=1)
+.....<unittest.suite.TestSuite tests=[<test_login.TestLogin testMethod=test_error>, <test_login.TestLogin testMethod=test_login>, <test_login.TestLogin testMethod=test_null>, <test_login.TestLogin testMethod=test_pawd_null>, <test_login.TestLogin testMethod=test_user_null>]>
+username=xxx;password=xxx
+请点击验证码
+****请点击验证码*****
+Vefify please...
+验证成功
+Will click on ok after 5 seconds... 
+帐号或密码错误
+准备关闭浏览器...
+username=iht_wang;password=Wzj1234abcd20
+iht_wang@126.com
+准备退出...
+退出了
+准备关闭浏览器...
+username=;password=
+请输入帐号
+准备关闭浏览器...
+username=iht_wang;password=
+请输入密码
+准备关闭浏览器...
+username=;password=Wzj1234abcd20
+请输入帐号
+准备关闭浏览器...
+
+----------------------------------------------------------------------
+Ran 5 tests in 265.331s
+
+OK
