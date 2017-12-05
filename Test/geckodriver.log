@@ -1,26 +1,30 @@
-1507696203736	geckodriver	INFO	geckodriver 0.18.0
-1507696203743	geckodriver	INFO	Listening on 127.0.0.1:54722
-1507696204291	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1507696204551	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1507696204931	Marionette	INFO	Enabled via --marionette
+1507869242770	geckodriver	INFO	geckodriver 0.18.0
+1507869242778	geckodriver	INFO	Listening on 127.0.0.1:54856
+1507869243248	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1507869244237	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1507869244954	Marionette	INFO	Enabled via --marionette
 Unable to read VR Path Registry from C:\Users\IBM_ADMIN\AppData\Local\openvr\openvrpaths.vrpath
-[Parent 9424] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6836] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Unable to read VR Path Registry from C:\Users\IBM_ADMIN\AppData\Local\openvr\openvrpaths.vrpath
-[Child 10452] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 10452] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1507696206418	Marionette	INFO	Listening on port 54726
-1507696206523	Marionette	WARN	TLS certificate errors will be ignored for this session
-1507696206565	Marionette	DEBUG	Register listener.js for window 4294967297
-1507696206612	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1507696207298	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1507696207299	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+[Child 8972] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8972] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1507869247919	Marionette	INFO	Listening on port 54860
+1507869248302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507869248352	Marionette	DEBUG	Register listener.js for window 4294967297
+1507869248416	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507869252524	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507869252524	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 Unable to read VR Path Registry from C:\Users\IBM_ADMIN\AppData\Local\openvr\openvrpaths.vrpath
-JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
-1507696207721	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
-1507696207768	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
-1507696208300	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1507696209295	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=selenium&rsv_pq=95feb47200007a01&rsv_t=d0c8oRff5TlRBkWM4kx3O6yKUCyes0hPwnbp0dMArjSvakzlc3Juy9qjG9U&rqlang=cn&rsv_enter=0&rsv_sug3=8&rsv_sug1=1&rsv_sug7=100&inputT=242&rsv_sug4=243"
-1507696209338	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=selenium&rsv_pq=95feb47200007a01&rsv_t=d0c8oRff5TlRBkWM4kx3O6yKUCyes0hPwnbp0dMArjSvakzlc3Juy9qjG9U&rqlang=cn&rsv_enter=0&rsv_sug3=8&rsv_sug1=1&rsv_sug7=100&inputT=242&rsv_sug4=243"
+JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1507869258201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.baidu.com/"
+1507869259936	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.baidu.com/"
+1507869260533	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1507869260540	Marionette	INFO	New connections will no longer be accepted
+[Parent 6836] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\IBM_ADMIN\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12428] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12428] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+RBkWM4kx3O6yKUCyes0hPwnbp0dMArjSvakzlc3Juy9qjG9U&rqlang=cn&rsv_enter=0&rsv_sug3=8&rsv_sug1=1&rsv_sug7=100&inputT=242&rsv_sug4=243"
 1507696209340	Marionette	DEBUG	Received DOM event "unload" for "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=selenium&rsv_pq=95feb47200007a01&rsv_t=d0c8oRff5TlRBkWM4kx3O6yKUCyes0hPwnbp0dMArjSvakzlc3Juy9qjG9U&rqlang=cn&rsv_enter=0&rsv_sug3=8&rsv_sug1=1&rsv_sug7=100&inputT=242&rsv_sug4=243"
 1507696209500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
 1507696209531	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
